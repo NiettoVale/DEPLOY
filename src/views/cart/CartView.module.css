@@ -1,0 +1,57 @@
+.fullContainer {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.cartTitle {
+  margin: 100px auto 60px auto;
+}
+
+.buyButton {
+  margin-bottom: 80px;
+  margin-top: 10px;
+  padding: 10px;
+}
+.deleteButton {
+  color: red;
+
+  margin: 10px auto;
+  padding: 10px;
+}
+.cartNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+.totalPrice {
+  font-size: 30px;
+  margin-bottom: 10px;
+}
+.lastFlex p {
+  margin: 0;
+  text-transform: uppercase;
+  font-weight: 500;
+}
+.lastFlex {
+  width: 80vw;
+
+  max-width: 900px;
+
+  margin: 20px auto;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: space-between;
+  text-align: right;
+}
+.catalogButton {
+  padding: 10px 20px;
+  margin: 50px;
+}
+.footer {
+  display: block;
+  left: 0;
+  bottom: 0;
+}

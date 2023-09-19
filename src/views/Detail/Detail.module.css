@@ -1,0 +1,191 @@
+.navBarDetail {
+  position: absolute;
+  left: 0;
+}
+
+.detailContainer {
+  width: 800px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  align-items: flex-start;
+
+  padding-top: 80px;
+  margin: auto;
+}
+
+.imgContainer {
+  width: 350px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+}
+
+/* Estilos para la imagen principal (grande) */
+.mainImage {
+  width: 350px;
+  height: 450px;
+
+  object-fit: cover;
+  object-position: center;
+
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+/* Estilos para las imágenes en miniatura (thumbnails) */
+.thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  object-position: center;
+  margin: 5px 5px 0 0;
+  border: 1px solid #ccc;
+  border-radius: 2px;
+}
+
+.detailInfo {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  text-align: left;
+  font-size: 16px;
+
+  width: 350px;
+}
+.detailName {
+  font-size: 26px;
+  font-weight: 700;
+  margin: 0 0 30px 0;
+}
+
+.sizesButtons {
+  width: 100%;
+}
+.sizesButtons button {
+  border: solid 1px #000;
+  border-radius: 2px;
+  background-color: #fff;
+  color: #000;
+  font-weight: 700;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  margin-right: 10px;
+  transition: border-color 0.25s;
+}
+.sizesButtons button:last-child {
+  width: 50px;
+}
+.sizesButtons button:hover {
+  border-color: #e100ff;
+}
+.sizesButtons button:focus {
+  outline: #e100ff;
+  color: #fff;
+  background-color: #000;
+}
+
+.sizesButtons p {
+  color: rgb(0, 0, 0);
+}
+
+.detailPrice {
+  font-size: 26px;
+  font-weight: 700;
+}
+
+.detailButtons button {
+  width: 100%;
+  border-radius: 2px;
+  font-weight: 500;
+}
+.favButton {
+  background-color: #fff;
+  border: solid 1px #000;
+  color: #000;
+}
+.cartButton {
+  margin-top: 10px;
+  background-color: #000;
+  border: solid 1px #000;
+  color: #fff;
+}
+/* DashboardAdmin.module.css */
+.dashboardAdmin {
+  display: flex;
+  height: 100vh;
+}
+
+.sidebar {
+  width: 250px;
+  background-color: #333;
+  color: #fff;
+  padding: 20px;
+}
+
+.sidebar h2 {
+  font-size: 24px;
+  margin-bottom: 150px;
+}
+
+.sidebar ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.sidebar ul li {
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.sidebar a {
+  text-decoration: none;
+  color: #fff;
+  font-size: 18px;
+}
+
+.contentContainer {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  background-color: #f4f4f4;
+  padding: 20px;
+}
+
+.title {
+  background-color: #dddada;
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+  font-size: 28px;
+  margin: 0;
+  display: flex;
+  align-items: center;
+}
+
+.logOutIcon {
+  text-decoration: none;
+  font-size: 22px;
+  line-height: 0;
+  margin-left: 16px;
+}
+
+/* Estilo para el botón "Visitar mi Pagina" */
+.visitPage {
+  border: solid black 2px;
+  font-size: 18px;
+  margin-left: 90px;
+}
+
+@media (max-width: 910px) {
+  .detailContainer {
+    width: 360px;
+  }
+
+  .detailName {
+    margin: 30px 0 10px 0;
+  }
+}
